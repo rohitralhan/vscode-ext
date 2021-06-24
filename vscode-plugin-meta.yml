@@ -21,4 +21,3 @@ spec:
           - https://github.com/SonarSource/sonarlint-vscode/releases/download/1.16.0/sonarlint-vscode-1.16.0.vsix
           - https://open-vsx.org/api/CoenraadS/bracket-pair-colorizer/1.0.61/file/CoenraadS.bracket-pair-colorizer-1.0.61.vsix
           - https://open-vsx.org/api/entepe85/gitlens/11.0.2/file/entepe85.gitlens-11.0.2.vsix
-          - 
