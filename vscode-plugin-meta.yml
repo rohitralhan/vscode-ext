@@ -2,7 +2,7 @@ apiVersion: v2
 publisher: myorg                                                 
 name: my-vscode-ext                                              
 version: 1.7.2                                                   
-type: value                                                      
+type: VS Code extension                                                      
 displayName:                                                     
 title:                                                           
 description:                                                     
