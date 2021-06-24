@@ -1,0 +1,15 @@
+apiVersion: v2
+category: Language
+description: This extension allows matching brackets to be identified with colours.
+displayName: Bracket Pair Colorizer support
+firstPublicationDate: "2019-12-02"
+icon: https://www.eclipse.org/che/images/logo-eclipseche.svg
+name: Bracket-Pair-Colorizer
+publisher: CoenraadS
+repository: https://github.com/CoenraadS/Bracket-Pair-Colorizer-2
+title: Bracket Pair Colorizer
+type: VS Code extension
+version: 1.0.61
+spec:
+  extensions:
+  - https://open-vsx.org/api/CoenraadS/bracket-pair-colorizer/1.0.61/file/CoenraadS.bracket-pair-colorizer-1.0.61.vsix
