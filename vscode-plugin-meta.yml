@@ -1,23 +1,15 @@
-apiVersion: v2                                                   
-publisher: myorg                                                 
-name: my-vscode-ext                                              
-version: 1.7.2                                                   
-type: VS Code extension                                                      
-displayName:                                                     
-title:                                                           
-description:                                                     
-icon: https://www.eclipse.org/che/images/logo-eclipseche.svg     
-repository:                                                     
-category:                                                       
+apiVersion: v2
+category: Language
+description: This extension provides a live preview, syntax highlighting and snippets for the AsciiDoc format using Asciidoctor flavor
+displayName: AsciiDoc support
+firstPublicationDate: "2019-12-02"
+icon: https://www.eclipse.org/che/images/logo-eclipseche.svg
+name: vscode-asciidoctor
+publisher: joaompinto
+repository: https://github.com/asciidoctor/asciidoctor-vscode
+title: AsciiDoctor Plug-in
+type: VS Code extension
+version: 2.7.7
 spec:
-  containers:                                                   
-    - image:                                                    
-      memoryLimit:                                              
-      memoryRequest:                                            
-      cpuLimit:                                                 
-      cpuRequest:                                               
-  extensions:                                                   
-          - https://github.com/redhat-developer/vscode-yaml/releases/download/0.4.0/redhat.vscode-yaml-0.4.0.vsix
-          - https://github.com/SonarSource/sonarlint-vscode/releases/download/1.16.0/sonarlint-vscode-1.16.0.vsix
-          - https://open-vsx.org/api/CoenraadS/bracket-pair-colorizer/1.0.61/file/CoenraadS.bracket-pair-colorizer-1.0.61.vsix
-          - https://open-vsx.org/api/entepe85/gitlens/11.0.2/file/entepe85.gitlens-11.0.2.vsix
+  extensions:
+  - https://github.com/asciidoctor/asciidoctor-vscode/releases/download/v2.7.7/asciidoctor-vscode-2.7.7.vsix
