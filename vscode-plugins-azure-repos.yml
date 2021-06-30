@@ -1,0 +1,15 @@
+apiVersion: v2
+category: Language
+description: This extension allows you to connect to Azure DevOps Services and Team Foundation Server and provides support for Team Foundation Version Control (TFVC).
+displayName: Azure Repos
+firstPublicationDate: "2020"
+icon: https://www.eclipse.org/che/images/logo-eclipseche.svg
+name: vscode-azure-repo
+publisher: open-vsx
+repository: https://github.com/microsoft/azure-repos-vscode
+title: Azure Repos Plug-in
+type: VS Code extension
+version: 2.7.7
+spec:
+  extensions:
+  - https://open-vsx.org/api/ms-vsts/team/1.161.0/file/ms-vsts.team-1.161.0.vsix
